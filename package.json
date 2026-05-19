@@ -1,23 +1,28 @@
 {
   "name": "libsignal",
-  "version": "2.0.1",
-  "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "ForstaLabs/libsignal-node",
+  "version": "1.0.0",
+  "description": "Signal Protocol implementation for Node.js (VEX-SL fork)",
+  "repository": "github:VEX-SL/libsignal-node",
   "main": "index.js",
   "keywords": [
     "signal",
     "whispersystems",
-    "crypto"
+    "crypto",
+    "VEX-SL",
+    "baileys"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "curve25519-js": "^0.0.4",
-    "protobufjs": "6.8.8"
+    "protobufjs": "^7.2.4"
   },
   "files": [
     "src/*"
   ],
   "devDependencies": {
-    "eslint": "6.0.1"
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
